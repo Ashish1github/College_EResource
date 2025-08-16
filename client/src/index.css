@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glass {
+  background: rgba(17, 24, 39, 0.35); /* more transparent, ~35% */
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4); /* subtle depth */
+}
+
+
+
+
+body {
+  @apply text-white;
+  background-color: #0e141b; /* custom deep gray */
+}
+
+
+
+
+[id] {
+  scroll-margin-top: 96px; /* matches your sticky header height */
+}
+
