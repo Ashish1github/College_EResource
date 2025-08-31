@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { FaBook } from "react-icons/fa"; // Subject icon
 import Card from "../Components/Card"; // Reusable Card component
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5000";
+const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5001";
 
 export default function SubjectPage() {
   const { deptName, semId } = useParams();
